@@ -62,7 +62,6 @@ export flatten, domain
         return Tuple([nPML+1:x.N-nPML for x in space])
     end
 
-
     gettype(s::ProductAxis{T}) where {T} = T
     Base.size(s::Space3D) = (s.x.N, s.y.N, s.z.N)
     Base.size(s::Space2D) = (s.x.N, s.y.N)
