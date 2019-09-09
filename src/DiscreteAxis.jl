@@ -52,7 +52,7 @@ export flatten, domain
         y::LinearAxis{T}
         Space2D(x::LinearAxis{T}, y::LinearAxis{T})  where {T<:Number} = new{T}(x,y)
     end
-    struct DiscreteSpace{T<:Number, N}
+    struct DiscreteSpace{T<:Number, N} <: AbstractArray{SVector{N,T}, N}
         dims::SVector{N, LinearAxis{T}}
         dimtype::SVector{N, String}
         DiscreteSpace(Axies...) = new{gettype(Axies[1]), length(axies)}(SVector(Axies...))
