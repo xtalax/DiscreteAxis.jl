@@ -28,4 +28,4 @@ midpoint = [div(x.N,2) for x in space]
 # Coming soon:
 - Iterate over all the points in a space
 - Broadcast over a space, returning an Array of the correct shape
-- A `DiscreteFunction` Type, containing a discretized function and its axies
+- A `DiscreteFunction` Type, containing a discretized function and its axies with the possibility of non integer indexing with interpolation
