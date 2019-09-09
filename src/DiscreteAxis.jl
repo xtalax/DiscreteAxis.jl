@@ -1,5 +1,6 @@
 module DiscreteAxis
-export LinearAxis, LogAxis, FuncAxis, CoordinateSystem, DAxis, Space3D, Space2D, interior_range
+export LinearAxis, LogAxis, FuncAxis, CoordinateSystem, interior_range
+export DAxis, Space3D, Space2D, ProductAxis
 export flatten, domain
 
     using StaticArrays, Rotations
