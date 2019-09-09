@@ -1,0 +1,8 @@
+name = "DiscreteAxis"
+uuid = "1f5a0495-2bf9-41d3-8bdd-edd8d0aabf6b"
+authors = ["jones "]
+version = "0.1.0"
+
+[deps]
+Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
